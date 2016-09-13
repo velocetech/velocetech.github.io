@@ -1,0 +1,585 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+	
+	<!-- mobile meta tag -->		
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<!-- favicons -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="images/apple_icons_72x72.png" />
+	<link rel="apple-touch-icon" href="images/apple_icons_114x114.png" />
+	<link rel="apple-touch-icon" href="images/apple_icons_180x180.png" />
+	
+	<title>BLINK - Elements</title> 
+	
+	<!-- main style -->
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	
+	<!-- color scheme -->
+	<link rel="stylesheet" type="text/css" href="color-schemes/red/red.css" media="screen" />
+	
+	<!--miscellaneous-->
+	<link rel="stylesheet" type="text/css" href="css/pace.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/plugins.css" media="screen" />
+
+	<!-- responsive stylesheet -->		
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />			
+	
+	<!-- Google Web Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css' />
+	
+	<!-- jQuery -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	
+	<!-- jQuery Scripts -->
+	<script type="text/javascript" src="js/pace.min.js"></script>
+	<script type="text/javascript" src="js/plugins-top.js"></script>
+
+</head> 
+
+<body> 
+	<div class="dt-preload"></div>
+	<!-- Change "solid-header" with "transparent-header", "transparent-header-2" or "no-header" to switch to new header styles. -->
+	<header id="header" class="solid-header initial-state">
+		<div class="centered-wrapper">
+		
+			<div class="percent-one-fourth bm">
+				<div class="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+			</div><!--end one-fourth-->
+			
+			<!-- Use "displaynone" class to hide this navigation and use the burger menu -->			
+			<div class="regular-navigation">
+				<a class="nav-btn"><i class="fa fa-bars"></i></a>
+				
+				<div class="percent-three-fourth column-last">					
+					<nav id="navigation">
+						<ul id="mainnav" class="sf-menu">
+							<li><a class="external" href="index.html#hello"><span>hello</span></a></li>
+							<li><a class="external" href="index.html#about"><span>about us</span></a></li>
+							<li><a class="external" href="index.html#work"><span>portfolio</span></a></li>						
+							<li><a class="external" href="index.html#services"><span>services</span></a></li>
+							<li><a class="external" href="index.html#blog"><span>journal</span></a></li>
+							<li><a href="#extra"><span>extra</span></a>
+								<ul>
+									<li class="current"><a href="elements.html">Elements</a></li>							
+									<li><a class="external" href="portfolio-item-1.html">Portfolio Item 1</a></li>							
+									<li><a class="external" href="portfolio-item-2.html">Portfolio Item 2</a></li>							
+									<li><a class="external" href="portfolio-item-3.html">Portfolio Item 3</a></li>							
+									<li><a class="external" href="portfolio-item-4.html">Portfolio Item 4</a></li>							
+									<li><a class="external" href="portfolio-item-5.html">Portfolio Item 5</a></li>							
+									<li><a class="external" href="blog-masonry-3-columns.html">Blog - Masonry 3 Cols</a></li>
+									<li><a class="external" href="blog-masonry-2-columns.html">Blog - Masonry 2 Cols</a></li>
+									<li><a class="external" href="blog-masonry-2-columns-sidebar.html">Blog - Masonry 2 Cols + Sidebar</a></li>
+									<li><a class="external" href="blog.html">Blog - Regular Layout</a></li>
+									<li><a class="external" href="blog-single.html">Blog - Single</a></li>
+									<li><a class="external" href="blog-single-2.html">Blog - Single 2</a></li>
+								</ul>
+							</li>							
+							<li><a class="external" href="index.html#contact"><span>contact</span></a></li>
+						</ul>
+					</nav><!--end navigation-->		
+
+				</div><!--end three-fourth-->	
+			</div><!--end regular-navigation-->
+
+			<!-- burger menu - remove the "displaynone" class to enable burger menu -->
+			<div class="percent-three-fourth column-last bm displaynone">
+				<div class="bi burger-icon">
+					<div class="burger-menu">
+						<div class="bar"></div>
+						<div class="bar"></div>
+						<div class="bar"></div>
+					</div>
+				</div>	
+			</div>
+
+			<div class="clear"></div>	
+		</div><!--end centered-wrapper-->
+
+
+		<!-- fullscreen navigation - remove the "displaynone" class to enable the fullscreen navigation -->
+		<div class="overlay displaynone">
+			<div class="wrap centered-wrapper">
+				<ul class="wrap-nav animated fadeInDown">
+					<li><a href="index.html#hello">Hello</a>
+					</li>
+					<li><a class="external" href="index.html#about">About Us</a>
+						<ul>
+							<li><a class="external" href="#about">Company Philosophy</a></li>
+							<li><a class="external" href="#team">Our Team</a></li>
+						</ul>
+					</li>
+					<li><a href="index.html#work">Projects</a>
+						<ul>
+							<li><a class="external" href="portfolio-item-1.html">Print</a></li>
+							<li><a class="external" href="portfolio-item-2.html">Branding</a></li>
+							<li><a class="external" href="portfolio-item-3.html">Interaction Design</a></li>
+							<li><a class="external" href="portfolio-item-4.html">Animation</a></li>
+							<li><a class="external" href="portfolio-item-5.html">Photography</a></li>
+						</ul>
+					</li>
+					<li><a class="external" href="index.html#services">Services</a></li>
+					<li><a class="external" href="index.html#blog">Journal</a></li>
+					<li><a class="external" href="index.html#contact">Contact</a>
+						<ul>
+							<li><a class="external" href="#contact">Get a Quote</a></li>
+							<li><a class="external" target="_blank" href="https://goo.gl/ZFSFEx">Find Us on Map</a></li>
+							<li><a class="external" href="skype:skypeusername?call">Call Us</a></li>
+						</ul>
+					</li>					
+				</ul>
+				<div class="clear"></div>
+
+				<!-- social icons for the fullscreen navigation -->
+ 				<!--
+ 				<ul class="overlaymenu-social">
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+				</ul> 
+				-->
+			</div>
+		</div>
+
+	</header>	
+	
+<div id="wrapper">
+	
+	<!--  menu-fixer class for the header. Should always be present when header is set to "solid-header". Delete it when you use "transparent-header", "transparent-header-2" or "no-header" classes for the header  -->
+	<div class="menu-fixer"></div>
+
+
+	<section class="centered-wrapper menu-border">
+	
+		<div class="space"></div>
+		
+		<h1 class="section-title">Web Elements</h1>
+		<h2 class="section-tagline">Enhance template functionality with dynamic HTML elements!</h2>	
+		
+		<div class="separator"></div>
+		
+		<div class="percent-two-third">
+			<h2>Tabs</h2>
+			<div class="tabs-wrapper">
+				<ul class="tabs">
+					<li><a href="#tab1"><i class="fa fa-cloud"></i>We Imagine It</a></li>
+					<li id="what"><a href="#tab2"><i class="fa fa-flask"></i>We Craft It</a></li>
+					<li><a href="#tab3"><i class="fa fa-download"></i>We Deliver It</a></li>
+				</ul>	
+				<div class="tabs-container">
+					<div id="tab1" class="tab-content">
+						<p><span class="dropcap1">L</span>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+						<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					</div>
+				
+					<div id="tab2" class="tab-content">
+						<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. </p>	
+						<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>						
+					</div>
+										
+					<div id="tab3" class="tab-content">
+						<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis.</p>
+						<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis.</p>
+						<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>						
+					</div>	
+				</div>
+			</div>					
+		</div><!--end one-third-->		
+	
+		<div class="percent-one-third column-last">
+			<h2>Toggles</h2>
+			<ul id="toggle-view">
+				<li>
+					<h3>LOREM IPSUM DOLOR SIT AMET</h3>
+					<span class="toggle-plus"></span>
+					<div class="panel">
+						<p>Lorem ipsum dolor sit amet, <a href="#">consectetuer adipiscing</a> elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim.</p>
+					</div>
+				</li>
+				<li>
+					<h3><i class="fa fa-tasks"></i>CONSECTETUR ADIPISCING ELIT</h3>
+					<span class="toggle-plus"></span>
+					<div class="panel">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim.</p>
+					</div>
+				</li>
+				<li class="activated">
+					<h3>COMMODO CONSEQUAT ALIQUIP</h3>
+					<span class="toggle-plus toggle-minus"></span>
+					<div class="panel" style="display: block">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim.</p>
+					</div>
+				</li>
+			</ul>					
+		</div><!--end one-third last-->		
+		
+		<div class="separator"></div>
+		
+		<h2> Regular Buttons</h2>
+		<code>&lt;a href="yourlink" class="dt-button yellow"&gt;Button text&lt;/a&gt; <br /><br />
+		Replace 'yellow' with the next colors: white, orange, green, bleumarin, rose, black, red
+		</code>
+	
+		<a href="#" class="dt-button yellow">Yellow</a>
+		<a href="#" class="dt-button orange">Orange</a>
+		<a href="#" class="dt-button green">Green</a>
+		<a href="#" class="dt-button bleumarin">Bleumarine</a>
+		<a href="#" class="dt-button rose">Rose</a>
+		<a href="#" class="dt-button black">Black</a>
+		<a href="#" class="dt-button red">Red</a>
+		<a href="#" class="dt-button gray">Gray</a>		
+		
+		<div class="space"></div>
+		
+		<h2>Alt Buttons</h2>
+		<code>&lt;a href="yourlink" class="dt-button alt yellow"&gt;Button text&lt;/a&gt; 
+		</code>
+		
+		<a href="#" class="dt-button alt yellow">Yellow</a>
+		<a href="#" class="dt-button alt orange">Orange</a>
+		<a href="#" class="dt-button alt green">Green</a>
+		<a href="#" class="dt-button alt bleumarin">Bleumarine</a>
+		<a href="#" class="dt-button alt rose">Rose</a>
+		<a href="#" class="dt-button alt black">Black</a>
+		<a href="#" class="dt-button alt red">Red</a>		
+		<a href="#" class="dt-button alt gray">Gray</a>
+		
+		<div class="space"></div>
+		
+		<h2>Buttons with Icons</h2>
+		<code>&lt;a href="yourlink" class="dt-button alt yellow"&gt;Button text&lt;i class="fa fa-icon-name"&gt;&lt;/i&gt;&lt;/a&gt; 
+		</code>
+		
+		<a href="#" class="dt-button  yellow">Yellow<i class="fa fa-bullhorn"></i></a>
+		<a href="#" class="dt-button alt orange">Orange<i class="fa fa-comments-o"></i></a>
+		<a href="#" class="dt-button green">Green<i class="fa fa-calendar"></i></a>
+		<a href="#" class="dt-button alt bleumarin icon-right">Bleumarine<i class="fa fa-arrow-circle-o-right"></i></a>
+		<a href="#" class="dt-button rose">Rose<i class="fa fa-exclamation-triangle"></i></a>
+		<a href="#" class="dt-button alt black">Black<i class="fa fa-envelope-o"></i></a>
+		<a href="#" class="dt-button red">Red<i class="fa fa-flash"></i></a>		
+		<a href="#" class="dt-button alt gray">Gray<i class="fa fa-power-off"></i></a>		
+		<div class="clear"></div>
+		
+		<a href="#" class="dt-button alt orange">You can place a lot of text inside a button</a>
+
+		<div class="separator"></div>		
+
+		<h2>Big Buttons</h2>
+		<code>&lt;a href="yourlink" class="dt-button big alt yellow"&gt;Button text&lt;/a&gt; 
+		</code>
+		
+		<a href="#" class="dt-button big yellow">Yellow<i class="fa fa-bullhorn"></i></a>
+		<a href="#" class="dt-button big alt orange">Orange<i class="fa fa-comments-o"></i></a>
+		<a href="#" class="dt-button big green">Green<i class="fa fa-calendar"></i></a>
+		<a href="#" class="dt-button big alt bleumarin">Bleumarine<i class="fa fa-arrow-circle-o-right"></i></a>
+		<a href="#" class="dt-button big rose">Rose<i class="fa fa-exclamation-triangle"></i></a>
+		<a href="#" class="dt-button big alt black">Black<i class="fa fa-envelope-o"></i></a>
+		<a href="#" class="dt-button big red">Red<i class="fa fa-flash"></i></a>		
+		<a href="#" class="dt-button big alt gray">Gray<i class="fa fa-power-off"></i></a>		
+		<div class="clear"></div>
+
+		<div class="separator"></div>			
+
+		<h2>Info Boxes</h2>
+		<div class="percent-one-half">
+			<code>&lt;div class="box-error"&gt;This box is for alerts&lt;/div&gt;</code>
+			<div class="box-error"><i class="fa fa-minus-circle"></i><strong>Error!</strong> This box is for errors or alerts</div>		
+		</div>
+		
+		<div class="percent-one-half column-last">
+			<code>&lt;div class="box-notice"&gt;This box is for notices&lt;/div&gt;</code>
+			<div class="box-notice"><i class="fa fa-exclamation-circle"></i><strong>Notice!</strong> This box is for notices</div>		
+		</div>		
+		
+		<div class="simple-separator"></div>					
+		
+		<div class="percent-one-half">
+			<code>&lt;div class="box-success"&gt;This is a success box&lt;/div&gt;</code>
+			<div class="box-success"><i class="fa fa-flag"></i><strong>Success!</strong> This is a success box</div>		
+		</div>
+		
+		<div class="percent-one-half column-last">
+			<code>&lt;div class="box-info"&gt;This is an info box&lt;/div&gt;</code>
+			<div class="box-info"><i class="fa fa-info-circle"></i><strong>Message!</strong> This is an info box</div>		
+		</div>									
+
+
+		<div class="double-space"></div>
+
+
+		<h2>Pricing Table</h2>
+
+		<div class="half-space"></div>
+		
+		<div class="pricing-table">
+			<div class="pricing-column percent-one-third first-column">
+				<div class="pricing-header">
+					<div class="package-title">BASIC</div>
+					<div class="package-value">
+						<span class="package-currency">$</span>
+						<span class="package-price">19</span>
+						<span class="package-time">/month</span>
+						<div class="package-info">*perfect for personal usage and testing</div>
+					</div><!--end package-value-->
+				</div><!--end pricing-header-->	
+				<ul class="package-features">
+					<li>24/7 Support</li>
+					<li class="alt">Free 10GB Storage</li>
+					<li>Documentation & Tutorials</li>
+					<li>Up to 10 Projects</li>
+					<li>Up to 3 Users</li>
+				</ul><!--end package-features-->
+				<div class="signup">
+					<a href="#" class="dt-button gray">SIGN UP<i class="fa fa-sign-in"></i></a> 
+				</div>				
+			</div><!--end pricing-column-->
+			
+			<div class="pricing-column percent-one-third featured-column">
+				<div class="pricing-header">
+					<div class="column-shadow"></div>
+					<div class="package-title">ADVANCED</div>
+					<div class="package-value">
+						<span class="package-currency">$</span>
+						<span class="package-price">29</span>
+						<span class="package-time">/month</span>
+						<span class="package-info">*fits for any fresh startup business</span>
+					</div><!--end package-value-->
+				</div><!--end pricing-header-->	
+				<ul class="package-features">
+					<li>24/7 Support</li>
+					<li class="alt">Free 30GB Storage</li>
+					<li>Documentation & Tutorials</li>
+					<li>Up to 20 Projects</li>
+					<li>Up to 5 Users</li>
+				</ul><!--end package-features-->
+				<div class="signup">
+					<a href="#" class="dt-button red">SIGN UP<i class="fa fa-sign-in"></i></a> 
+				</div>
+			</div><!--end pricing-column-->
+
+			<div class="pricing-column percent-one-third column-last">
+				<div class="pricing-header">
+					<div class="package-title">PROFESSIONAL</div>
+					<div class="package-value">
+						<span class="package-currency">$</span>
+						<span class="package-price">49</span>
+						<span class="package-time">/month</span>
+						<span class="package-info">*suitable for big companies looking for growth</span>
+					</div><!--end package-value-->
+				</div><!--end pricing-header-->	
+				<ul class="package-features">
+					<li>24/7 Support</li>
+					<li class="alt">Unlimited Storage</li>
+					<li>Documentation & Tutorials</li>
+					<li>Up to 50 Projects</li>
+					<li>Unlimited Users</li>
+				</ul><!--end package-features-->
+				<div class="signup">
+					<a href="#" class="dt-button gray">SIGN UP<i class="fa fa-sign-in"></i></a> 
+				</div>				
+			</div><!--end pricing-column-->
+
+
+		</div><!--end pricing table-->		
+		
+		<div class="double-space"></div>
+		
+		<h2>Lists</h2>
+		
+		<p>Icons used are from the very popular <a href="http://fontawesome.io/icons/">FontAwesome</a> icon font library. Check it out for more!</p>
+		<div class="percent-one-fourth">
+			<ul class="customlist">
+				<li><i class="fa fa-angle-right"></i>Lorem ipsum</li>
+				<li><i class="fa fa-angle-right"></i>Consectetur adipisicing</li>
+				<li><i class="fa fa-angle-right"></i>Ullamco laboris</li>
+				<li><i class="fa fa-angle-right"></i>Quis nostrud exercitation</li>
+			</ul>
+		</div>	
+		<div class="percent-one-fourth">
+			<ul class="customlist arrow-list">
+				<li><i class="fa fa-angle-double-right"></i>Lorem ipsum</li>
+				<li><i class="fa fa-angle-double-right"></i>Consectetur adipisicing</li>
+				<li><i class="fa fa-angle-double-right"></i>Ullamco laboris</li>
+				<li><i class="fa fa-angle-double-right"></i>Quis nostrud exercitation</li>
+			</ul>
+		</div>			
+		<div class="percent-one-fourth">
+			<ul class="customlist play-list">
+				<li><i class="fa fa-arrow-circle-o-right"></i>Lorem ipsum</li>
+				<li><i class="fa fa-arrow-circle-o-right"></i>Consectetur adipisicing</li>
+				<li><i class="fa fa-arrow-circle-o-right"></i>Ullamco laboris</li>
+				<li><i class="fa fa-arrow-circle-o-right"></i>Quis nostrud exercitation</li>
+			</ul>
+		</div>		
+		<div class="percent-one-fourth column-last">
+			<ul class="customlist star-list">
+				<li><i class="fa fa-caret-right"></i>Lorem ipsum</li>
+				<li><i class="fa fa-caret-right"></i>Consectetur adipisicing</li>
+				<li><i class="fa fa-caret-right"></i>Ullamco laboris</li>
+				<li><i class="fa fa-caret-right"></i>Quis nostrud exercitation</li>
+			</ul>
+		</div>					
+
+		<div class="space"></div>
+		
+		<h2>Columns</h2>
+		
+		<div class="percent-one-half">
+			<code>&lt;div class="percent-one-half"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>				
+		</div>
+		
+		<div class="percent-one-half column-last">
+			<code>&lt;div class="percent-one-half column-last"&gt;text&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>	
+		</div>
+		
+		<div class="separator"></div>				
+			
+		<div class="percent-one-third">
+			<code>&lt;div class="percent-one-third"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>				
+		</div>
+		
+		<div class="percent-one-third">
+			<code>&lt;div class="percent-one-third"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>				
+		</div>				
+		
+		<div class="percent-one-third column-last">
+			<code>&lt;div class="percent-one-third column-last"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>	
+		</div>
+
+		<div class="separator"></div>				
+			
+		<div class="no-margin percent-one-third">
+			<code>&lt;div class="no-margin percent-one-third"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>				
+		</div>
+		
+		<div class="no-margin percent-one-third">
+			<code>&lt;div class="no-margin percent-one-third"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>				
+		</div>				
+		
+		<div class="no-margin percent-one-third">
+			<code>&lt;div class="no-margin percent-one-third"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>	
+		</div>		
+		
+		<div class="separator"></div>	
+	
+		<div class="percent-two-third">
+			<code>&lt;div class="percent-two-third"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>				
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>		
+		</div>				
+		
+		<div class="percent-one-third column-last">
+			<code>&lt;div class="percent-one-third column-last"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>	
+		</div>
+		
+		<div class="separator"></div>				
+					
+		<div class="percent-one-fourth">
+			<code>&lt;div class="percent-one-fourth"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>				
+		</div>
+		
+		<div class="percent-one-fourth">
+			<code>&lt;div class="percent-one-fourth"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>				
+		</div>				
+		
+		<div class="percent-one-fourth">
+			<code>&lt;div class="percent-one-fourth"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>				
+		</div>	
+		
+		<div class="percent-one-fourth column-last">
+			<code>&lt;div class="one-fourth column-last"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>	
+		</div>
+		
+		<div class="separator"></div>				
+	
+		<div class="percent-three-fourth">
+			<code>&lt;div class="percent-three-fourth"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>		
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>								
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>			
+		</div>	
+		
+		<div class="percent-one-fourth column-last">
+			<code>&lt;div class="percent-one-fourth column-last"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>	
+		</div>	
+		
+		<div class="separator"></div>
+		
+		<div class="percent-one-fifth">
+			<code>&lt;div class="percent-one-fifth"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>	
+		</div>
+		<div class="percent-one-fifth">
+			<code>&lt;div class="percent-one-fifth"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>	
+		</div>
+		<div class="percent-one-fifth">
+			<code>&lt;div class="percent-one-fifth"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>	
+		</div>
+		<div class="percent-one-fifth">
+			<code>&lt;div class="percent-one-fifth"&gt;text goes here&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>	
+		</div>
+		<div class="percent-one-fifth column-last">
+			<code>&lt;div class="percent-one-fifth column-last"&gt;text&lt;/div&gt;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>	
+		</div>					
+
+		<div class="clear"></div>
+		<div class="space"></div>
+	</section><!--end centered-wrapper-->
+	
+	<footer id="footer">		
+		<div id="bottomfooter">		
+			<div class="centered-wrapper">		
+				<ul id="social" class="aligncenter">
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				</ul>	
+				<!-- 
+				You can add social icons for forrst, dribbble, vimeo, linkedin, etc. 
+				Just add "<li><a href="#"><i class="fa fa-twitter"></i></a></li>" to the list. 
+				The social icons are generated by FontAwesome font. Get the icons from http://fontawesome.io/ 	
+				-->	
+				
+				<p class="copyright-info aligncenter">&copy; &nbsp; Copyright 2015 - Blink - All Rights Reserved</p>
+				
+				<div class="aligncenter">
+					<a href="#" id="totop">TO TOP</a>
+				</div>
+			</div><!--end centered-wrapper-->				
+		</div><!--end bottomfooter-->
+		
+	</footer><!--end footer-->	
+	
+</div><!--end wrapper-->
+
+	<!-- JQUERY SCRIPTS -->
+
+	<!-- VARIOUS PLUGINS -->
+	<script type="text/javascript" src="js/plugins-bottom.js"></script>		
+
+	<!-- CUSTOM -->
+	<script type="text/javascript" src="js/custom.js"></script>
+</body> 
+</html>

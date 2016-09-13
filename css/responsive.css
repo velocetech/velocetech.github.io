@@ -1,0 +1,466 @@
+/*
+* Responsive layout for Blink 
+*/
+
+/* Table of Contents
+==================================================
+
+    #Mobile - 320px	
+    #Mobile - 480px	
+	#Tablet - 768px	
+	#Desktop - 1024px	
+	#Desktop - 1280px	
+	*/
+
+
+	
+/*  #Mobile - 320px
+================================================== */
+
+@media only screen and (max-width: 479px) {
+
+	#header .one-fourth {
+		width:100%;
+	}
+
+	.tparrows {
+		display:none;
+	}
+	
+	.tp-bullets {
+		display:none;
+	}
+
+	#flickr li {
+		margin: 0 10px 9px 0;
+	}
+
+	.portfolio li.item-wide h1 {
+		font-size:20px;
+		line-height:28px;
+	}
+	
+	.portfolio li.item-long h1 {
+		font-size:18px;
+	}
+	
+	.widget {
+		margin-bottom:0;
+		margin-top:30px;
+	}
+
+	.authorp h2 {
+		font-size: 16px;
+	}
+
+	.author-bio img {
+		margin: 0 15px 0 0;
+	
+		width: 13%;
+	}
+		
+	.tp-caption h1.section-title {
+		font-size: 32px;	
+		line-height: 48px;
+	}
+
+	.tp-caption h1.section-title:after {
+		display: none;
+	}
+
+	.tp-caption.white-small {
+		display: none;
+	}
+
+	.tp-caption .dt-button {
+		line-height: 16px !important;
+		padding: 12px 15px;
+	
+		box-sizing: border-box;
+}
+
+	.tp-caption {
+		margin: 0 10px !important;
+	}
+
+	html .no-margin.percent-one-half { width: 100% }
+	html .no-margin.percent-one-third { width: 100% }
+	html .no-margin.percent-two-third { width: 100% }
+	html .no-margin.percent-one-fourth { width: 100% }
+	html .no-margin.percent-three-fourth { width: 100% }
+	html .no-margin.percent-one-fifth { width: 100% }
+	html .no-margin.percent-two-fifth { width: 100% }
+	html .no-margin.percent-three-fifth { width: 100% }
+	html .no-margin.percent-four-fifth { width: 100% }
+	html .no-margin.percent-one-sixth { width: 100% }
+	html .no-margin.percent-five-sixth { width: 100% }		
+
+}
+
+
+/* #Mobile - 480px
+================================================== */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+	html #footer {
+		width:100%;
+	}		
+
+	.tparrows {
+		display:none;
+	}
+	
+	.tp-bullets {
+		display:none;
+	}
+
+	.tp-caption {
+		margin: 0 10px !important;
+	}
+
+	.portfolio li.item-wide h1 {
+		font-size:20px;
+		line-height:28px;
+	}
+	
+	.portfolio li.item-long h1 {
+		font-size:14px;
+	}
+
+	.widget {
+		margin-bottom:0;
+		margin-top:30px;
+	}
+
+	.author-bio {
+		padding:15px;
+	}
+
+	.authorp {
+		width:340px;
+	}
+
+	.authorp h2 {
+		font-size:14px;
+	}
+
+	.author-bio img {
+		margin: 0 15px 0 0;
+	}
+
+	.tp-caption h1.section-title {
+		font-size: 42px;	
+		line-height: 58px;
+	}
+
+	.tp-caption h1.section-title:after {
+		height: 4px;
+		width: 90px;
+	}
+
+	.tp-caption.white-small {
+		display: none;
+	}
+
+	.tp-caption .dt-button {
+		line-height: 16px !important;
+	}
+
+	.tp-caption {
+		margin: 0 10px !important;
+	}	
+
+}
+
+@media only screen and (min-width: 550px) and (max-width: 767px) { 
+	.tp-caption.white-small {
+		display: block !important;
+		font-weight: normal;
+	}
+}
+
+
+
+/* #Tablet - 768px
+================================================== */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+	.percent-one-half { width: 48%; }
+	.percent-one-third { width: 30.66%; }
+	.percent-two-third { width: 65.33%; }
+	.percent-one-fourth { width: 22%; }
+	.percent-three-fourth { width: 74%; }
+	.percent-one-fifth { width: 16.8%; }
+	.percent-two-fifth { width: 37.6%; }
+	.percent-three-fifth { width: 58.4%; }
+	.percent-four-fifth { width: 67.2%; }
+	.percent-one-sixth { width: 13.33%; }
+	.percent-five-sixth { width: 82.67%; }
+
+	.percent-one-half,
+	.percent-one-third,
+	.percent-two-third,
+	.percent-three-fourth,
+	.percent-one-fourth,
+	.percent-one-fifth,
+	.percent-two-fifth,
+	.percent-three-fifth,
+	.percent-four-fifth,
+	.percent-one-sixth,
+	.percent-five-sixth {
+		position: relative;
+		margin-right: 4%;
+		float: left;
+		min-height:1px;
+	}
+
+	.widget {
+		margin-top:40px;
+		margin-bottom:0px;
+	}
+
+}
+
+@media only screen and (max-width: 1023px) {
+	
+	html .half-centered-wrapper-left {
+		width: 100%;
+		padding: 0 30px 0 10px;
+	}
+	html .half-centered-wrapper-right {
+		padding: 0 10px 0 30px;
+		width: 100%;
+	}
+
+	html #wrapper {
+		width:100%;
+		margin:0 auto;
+	}
+
+	.centered-wrapper {
+		width: 100%;
+		padding: 0 10px;
+		box-sizing: border-box;
+	}	
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+	html .half-centered-wrapper-left {
+		width: 502px;
+	}
+	html .half-centered-wrapper-right {
+		width: 502px;
+	}
+
+	html #wrapper {
+		width:100%;
+		margin:0 auto;
+	}
+
+	.centered-wrapper {
+		width: 1004px;
+		padding: 0 10px;
+	}		
+}
+
+@media only screen and (max-width: 767px) { 
+
+	.percent-one-half { width: 100%; }
+	.percent-one-third { width: 100%; }
+	.percent-two-third { width: 100%; }
+	.percent-one-fourth { width: 100%; }
+	.percent-three-fourth { width: 100%; }
+	.percent-one-fifth { width: 100%; }
+	.percent-two-fifth { width: 100%; }
+	.percent-three-fifth { width: 100%; }
+	.percent-four-fifth { width: 100%; }
+	.percent-one-sixth { width: 100%; }
+	.percent-five-sixth { width: 100%; }
+
+	.percent-one-half, .percent-one-third, .percent-two-third, .percent-three-fourth, .percent-one-fourth, .percent-one-fifth, .percent-two-fifth,
+	.percent-three-fifth, .percent-four-fifth, .percent-one-sixth, .percent-five-sixth {
+		position: relative;
+		margin-right: 0;
+		float: left;
+		min-height:1px;
+		margin-bottom:20px;
+	}
+
+	.no-margin.percent-one-half { width: 50% }
+	.no-margin.percent-one-third { width: 100% }
+	.no-margin.percent-two-third { width: 100% }
+	.no-margin.percent-one-fourth { width: 50% }
+	.no-margin.percent-three-fourth { width: 50% }
+	.no-margin.percent-one-fifth { width: 100% }
+	.no-margin.percent-two-fifth { width: 100% }
+	.no-margin.percent-three-fifth { width: 100% }
+	.no-margin.percent-four-fifth { width: 100% }
+	.no-margin.percent-one-sixth { width: 50% }
+	.no-margin.percent-five-sixth { width: 50% }	
+	
+
+	ul#filters li {
+		margin: 0 5px 15px 0;
+		float: left;
+	}	
+
+	ul#social li a {
+		margin: 0 10px;
+	}
+
+	html .half-centered-wrapper-left {
+		width: 100%;
+		padding: 0 10px;
+	}
+	html .half-centered-wrapper-right {
+		padding: 0 10px;
+		width: 100%;
+	}
+
+	.no-margin.percent-one-half {
+		width: 100%;
+		margin: 0;
+	}
+
+}
+
+@media only screen and (min-width: 1023px) {
+	.nav-btn {
+		margin: -1px;
+		overflow: hidden;
+		position: absolute;
+		width: 1px;
+		height: 1px;		
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.float-left {
+		float: none;
+		text-align: center;
+	}
+	.page-title-subtitle h2 {
+		line-height: 30px !important;
+	}
+	.wrap ul.wrap-nav {
+		margin: 100px 0;
+	}
+
+	.overlaymenu-social {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+
+	ul.tabs li {
+   		width: 100%;
+	}
+	
+	ul.tabs li a {
+    border: 1px solid #efefef;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+	
+	ul.tabs li.active {
+		
+	}
+
+	.percent-blog, #percent-sidebar {
+		width: 100%;
+		margin: 0;
+		clear:both;
+	}
+	
+	.page-title-subtitle h2 {
+		line-height: 50px;
+	}
+
+	#navigation {
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	ul#mainnav {
+		padding-top: 0;
+		max-width: 100%;
+	
+		margin-right: 0;
+		box-sizing: border-box;
+		float: left;
+}
+	
+	ul#mainnav > li {
+		background: none;
+		width: 100%;
+		border-bottom: 1px solid #EFEFEF;
+	}
+	
+	ul#mainnav > li:last-child {
+		border: 0;
+	}
+	
+	 ul#mainnav li a {
+		padding: 9px 0;
+		display: block;
+		margin: 0;
+		height: auto;
+		line-height: inherit;
+}
+	
+	ul#mainnav li ul {
+		display: block !important;
+		position: relative;
+		padding: 0;
+		width: 95%;
+}
+	ul#mainnav li ul li {
+		border-top: 1px solid #EFEFEF;
+		background: transparent;
+}
+	
+	ul#mainnav li ul li a, ul#mainnav li ul li ul li a, ul#mainnav li ul li a:visited, ul#mainnav li ul li a:active	 {
+    width: 100%;
+    padding: 9px 0;
+    font-size: 13px !important;
+    background: transparent;
+}
+	.sf-menu ul {
+    left: 5%;
+	}
+
+
+	#header .percent-three-fourth {
+		width: 100%;
+		clear: both;
+		margin-bottom: 0px;
+	}
+
+	#header .percent-three-fourth.bm {
+		width: 74%;
+		clear: none;
+		margin-bottom: auto;
+	}	
+	#header .percent-one-fourth.bm {
+		width: 22%;
+	}
+	
+	#header .centered-wrapper {
+		position: relative;
+	}
+	
+	#header {
+		width: 100%;
+	}
+	
+	#header .percent-one-fourth {
+		margin-bottom: 0px;
+	}
+
+	
+	
+}

@@ -1,0 +1,354 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+	
+	<!-- mobile meta tag -->		
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<!-- favicons -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="images/apple_icons_72x72.png" />
+	<link rel="apple-touch-icon" href="images/apple_icons_114x114.png" />
+	<link rel="apple-touch-icon" href="images/apple_icons_180x180.png" />
+	
+
+	<title>BLINK - Blog Masonry 3 Columns</title> 
+	
+	<!-- main style -->
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	
+	<!-- color scheme -->
+	<link rel="stylesheet" type="text/css" href="color-schemes/red/red.css" media="screen" />
+	
+	<!--miscellaneous-->
+	<link rel="stylesheet" type="text/css" href="css/pace.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/plugins.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/mediaelementplayer.css" media="screen" />
+
+	<!-- responsive stylesheet -->		
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />			
+	
+	<!-- Google Web Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+	
+	<!-- jQuery -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+	<!-- jQuery Scripts -->
+	<script type="text/javascript" src="js/pace.min.js"></script>
+	<script type="text/javascript" src="js/plugins-top.js"></script>
+
+</head> 
+
+<body> 
+	<div class="dt-preload"></div>
+	<!-- Change "solid-header" with "transparent-header", "transparent-header-2" or "no-header" to switch to new header styles. -->
+	<header id="header" class="solid-header initial-state">
+		<div class="centered-wrapper">
+		
+			<div class="percent-one-fourth bm">
+				<div class="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+			</div><!--end one-fourth-->
+			
+			<!-- Use "displaynone" class to hide this navigation and use the burger menu -->			
+			<div class="regular-navigation">
+				<a class="nav-btn"><i class="fa fa-bars"></i></a>
+				
+				<div class="percent-three-fourth column-last">					
+					<nav id="navigation">
+						<ul id="mainnav" class="sf-menu">
+							<li><a class="external" href="index.html#hello"><span>hello</span></a></li>
+							<li><a class="external" href="index.html#about"><span>about us</span></a></li>
+							<li><a class="external" href="index.html#work"><span>portfolio</span></a></li>						
+							<li><a class="external" href="index.html#services"><span>services</span></a></li>
+							<li><a class="external" href="index.html#blog"><span>journal</span></a></li>
+							<li><a href="#extra"><span>extra</span></a>
+								<ul>
+									<li><a class="external" href="elements.html">Elements</a></li>							
+									<li><a class="external" href="portfolio-item-1.html">Portfolio Item 1</a></li>							
+									<li><a class="external" href="portfolio-item-2.html">Portfolio Item 2</a></li>							
+									<li><a class="external" href="portfolio-item-3.html">Portfolio Item 3</a></li>							
+									<li><a class="external" href="portfolio-item-4.html">Portfolio Item 4</a></li>							
+									<li><a class="external" href="portfolio-item-5.html">Portfolio Item 5</a></li>							
+									<li class="current"><a href="blog-masonry-3-columns.html">Blog - Masonry 3 Cols</a></li>
+									<li><a class="external" href="blog-masonry-2-columns.html">Blog - Masonry 2 Cols</a></li>
+									<li><a class="external" href="blog-masonry-2-columns-sidebar.html">Blog - Masonry 2 Cols + Sidebar</a></li>
+									<li><a class="external" href="blog.html">Blog - Regular Layout</a></li>
+									<li><a class="external" href="blog-single.html">Blog - Single</a></li>
+									<li><a class="external" href="blog-single-2.html">Blog - Single 2</a></li>
+								</ul>
+							</li>							
+							<li><a class="external" href="index.html#contact"><span>contact</span></a></li>
+						</ul>
+					</nav><!--end navigation-->		
+
+				</div><!--end three-fourth-->	
+			</div><!--end regular-navigation-->
+
+			<!-- burger menu - remove the "displaynone" class to enable burger menu -->
+			<div class="percent-three-fourth column-last bm displaynone">
+				<div class="bi burger-icon">
+					<div class="burger-menu">
+						<div class="bar"></div>
+						<div class="bar"></div>
+						<div class="bar"></div>
+					</div>
+				</div>	
+			</div>
+
+			<div class="clear"></div>	
+		</div><!--end centered-wrapper-->
+
+
+		<!-- fullscreen navigation - remove the "displaynone" class to enable the fullscreen navigation -->
+		<div class="overlay displaynone">
+			<div class="wrap centered-wrapper">
+				<ul class="wrap-nav animated fadeInDown">
+					<li><a href="index.html#hello">Hello</a>
+					</li>
+					<li><a class="external" href="index.html#about">About Us</a>
+						<ul>
+							<li><a class="external" href="#about">Company Philosophy</a></li>
+							<li><a class="external" href="#team">Our Team</a></li>
+						</ul>
+					</li>
+					<li><a href="index.html#work">Projects</a>
+						<ul>
+							<li><a class="external" href="portfolio-item-1.html">Print</a></li>
+							<li><a class="external" href="portfolio-item-2.html">Branding</a></li>
+							<li><a class="external" href="portfolio-item-3.html">Interaction Design</a></li>
+							<li><a class="external" href="portfolio-item-4.html">Animation</a></li>
+							<li><a class="external" href="portfolio-item-5.html">Photography</a></li>
+						</ul>
+					</li>
+					<li><a class="external" href="index.html#services">Services</a></li>
+					<li><a class="external" href="index.html#blog">Journal</a></li>
+					<li><a class="external" href="index.html#contact">Contact</a>
+						<ul>
+							<li><a class="external" href="#contact">Get a Quote</a></li>
+							<li><a class="external" target="_blank" href="https://goo.gl/ZFSFEx">Find Us on Map</a></li>
+							<li><a class="external" href="skype:skypeusername?call">Call Us</a></li>
+						</ul>
+					</li>					
+				</ul>
+				<div class="clear"></div>
+
+				<!-- social icons for the fullscreen navigation -->
+ 				<!--
+ 				<ul class="overlaymenu-social">
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+				</ul> 
+				-->
+			</div>
+		</div>
+
+	</header>	
+	
+<div id="wrapper">
+	
+	<!--  menu-fixer class for the header. Should always be present when header is set to "solid-header". Delete it when you use "transparent-header", "transparent-header-2" or "no-header" classes for the header  -->
+	<div class="menu-fixer"></div>
+
+	<section id="blog">
+	
+		<section class="parallax-section" id="blogbg">
+			<div class="darker-overlay parallax-padding"> 
+				<div class="centered-wrapper">
+					<div class="space"></div>
+					<div class="titlewrapper">
+						<h1 class="section-title animated fadeInUp">Blogging isn`t just writing...</h1>
+						<h2 class="section-tagline animated fadeInUp">Because we care, we want to keep you up to date with latest news</h2>
+					</div>
+				</div>	
+			</div>
+		</section>		
+
+		<div class="centered-wrapper">			
+			<div class="double-space"></div>
+			<div class="blog-page blog-masonry on-three-columns">
+				<article class="post post-masonry">
+					<div class="post-thumbnail">
+						<a href="blog-single-2.html">
+							<span class="item-on-hover"><span class="hover-image"><i class="fa fa-external-link"></i></span></span>
+							<img src="images/blog/blog-image1.jpg" alt="" title="" />
+						</a>
+					</div>
+					<div class="post-content">
+						<span class="post-meta"><i class="fa fa-pencil"></i><em>May 24, 2015</em></span>
+						<h3 class="masonry-title"><a href="blog-single-2.html">Perfect Sunday Morning Coffee</a></h3>
+						<p>Nullam adipiscing sapien ut mi elementum sit amet dictum magna luctus. Donec id ligula ut tellus ultricies ornare quis vel nunc lorem ipsum dolor sit amet.</p>
+						<a class="post-read-more" href="blog-single-2.html">READ MORE</a>
+					</div>
+				</article>
+
+				<article class="post post-masonry">
+					<div class="post-thumbnail">
+						<a href="blog-masonry-3-columns.html">
+							<span class="item-on-hover"><span class="hover-image"><i class="fa fa-external-link"></i></span></span>
+							<img src="images/blog/blog-image2.jpg" alt="" title="" />
+						</a>
+					</div>
+					<div class="post-content">
+						<span class="post-meta"><i class="fa fa-pencil"></i><em>April 30, 2015</em></span>
+						<h3 class="masonry-title"><a href="blog-masonry-3-columns.html">A Dive Into a Designer`s Workspace</a></h3>
+						<p>Nullam adipiscing sapien ut mi elementum sit amet dictum magna luctus. Donec id ligula ut tellus ultricies ornare quis vel nunc lorem ipsum dolor sit amet.</p>
+						<a class="post-read-more" href="blog-masonry-3-columns.html">READ MORE</a>
+					</div>
+				</article>	
+				
+				<article class="post post-masonry">
+					<div class="gallery-slider owl-carousel mfp-gallery">
+						<div class="slider-item">
+							<a href="images/blog/image-gallery1.jpg" title="Image Gallery 1" class="dt-lightbox-gallery mfp-image"><img src="images/blog/image-gallery1.jpg" alt="Picture 1" /></a>
+						</div>
+						<div class="slider-item">
+							<a href="images/blog/image-gallery2.jpg" title="Image Gallery 2" class="dt-lightbox-gallery mfp-image"><img src="images/blog/image-gallery2.jpg" alt="Picture 2" /></a>
+						</div>							
+					</div>
+					<div class="post-content">
+						<span class="post-meta"><i class="fa fa-camera"></i><em>April 06, 2015</em></span>
+						<h3 class="masonry-title"><a href="single.html">What a Day in the Office Looks Like</a></h3>
+						<p>Nullam adipiscing sapien ut mi elementum sit amet dictum magna luctus. Donec id ligula ut tellus ultricies ornare quis vel nunc lorem ipsum dolor sit amet.</p>
+						<a class="post-read-more" href="single.html">READ MORE</a>
+					</div>
+				</article>				
+
+				<article class="post post-masonry">
+					<div class="post-thumbnail">
+						<a href="blog-masonry-2-columns-sidebar.html">
+							<span class="item-on-hover"><span class="hover-image"><i class="fa fa-external-link"></i></span></span>
+							<img src="images/blog/image-gallery3.jpg" alt="" title="" />
+						</a>
+					</div>
+					<div class="post-content">
+						<span class="post-meta"><i class="fa fa-video-camera"></i><em>March 18, 2015</em></span>
+						<h3 class="masonry-title"><a href="blog-masonry-2-columns-sidebar.html">Key Benefits of Biking to Work</a></h3>
+						<p>Donec id ligula ut tellus ultricies ornare quis vel nunc. In id purus vel magna porta laoreet at a dolor. Aliquam aliquam mollis feugiat.</p>
+						<a class="post-read-more" href="blog-masonry-2-columns-sidebar.html">READ MORE</a>
+					</div>
+				</article>
+
+				<article class="post post-masonry">
+					<div class="post-thumbnail">
+						<a href="blog-single.html">
+							<span class="item-on-hover"><span class="hover-image"><i class="fa fa-external-link"></i></span></span>
+							<img src="images/blog/blog-image3.jpg" alt="" title="" />
+						</a>
+					</div>
+					<div class="post-content">
+						<span class="post-meta"><i class="fa fa-video-camera"></i><em>March 07, 2015</em></span>
+						<h3 class="masonry-title"><a href="blog-single.html">Best Places to Escape Modern Life</a></h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<a class="post-read-more" href="blog-single.html">READ MORE</a>
+					</div>
+				</article>
+			
+				<article class="post quote-post post-masonry">
+						<div class="post-content">
+							<h3>Logic will get you from A to B. Imagination will take you just about everywhere.</h3>
+							<span class="quote-author">Albert Einstein</span>
+							<span class="post-meta"><i class="fa fa-quote-right"></i><em>February 29, 2015</em></span>
+						</div>
+				</article>
+				
+				<article class="post post-masonry">
+					<div class="dt-player">
+					    <audio controls>
+					        <!-- Audio files -->
+					        <source src="media/audio.mp3" type="audio/mp3">
+					    	<source src="media/audio.ogg" type="audio/ogg">
+
+					        <!-- Fallback for browsers that don't support the <audio> element -->
+					        <div>
+					            <a href="media/audio.mp3">Download</a>
+					        </div>
+					    </audio>
+					</div>
+					
+					<div class="post-content">						
+						<span class="post-meta"><i class="fa fa-music"></i><em>February 14, 2015</em></span>
+						<h3 class="masonry-title"><a href="#">Audio Post</a></h3>
+						<p>Nullam adipiscing sapien ut mi elementum sit amet dictum magna luctus. Donec id ligula ut tellus ultricies ornare quis vel nunc lorem ipsum dolor sit amet.</p>
+						<a class="post-read-more" href="#">READ MORE</a>
+					</div>
+				</article>
+			</div>				
+		
+		<div class="clear"></div>
+		
+		<div class="pagenav">
+			<span class="current">1</span>
+			<a href="#" class="page">2</a>
+			<a href="#" class="page">3</a>
+			<a href="#" class="nextpostslink">&raquo;</a>
+		</div> 			
+		
+		<div class="double-space"></div>
+		</div>
+	</section>	
+
+	<section class="parallax-section" id="blogtwitter">
+		<div class="darker-overlay">	
+			<section class="centered-wrapper">
+				<div class="double-space"></div>
+				<div class="title-center">
+					<h1 class="section-title"><i class="fa fa-twitter"></i></h1>	
+				</div>
+				<div class="half-space"></div>
+				
+				<div class="twitter-carousel">	
+						<div class="tweet"></div>
+				</div><!--end carousel-->	
+				
+				<div class="double-space"></div>
+			</section>	
+		</div>
+		
+	</section>	
+
+	<footer id="footer">		
+		<div id="bottomfooter">		
+			<div class="centered-wrapper">		
+				<ul id="social" class="aligncenter">
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				</ul>	
+				<!-- 
+				You can add social icons for forrst, dribbble, vimeo, linkedin, etc. 
+				Just add "<li><a href="#"><i class="fa fa-twitter"></i></a></li>" to the list. 
+				The social icons are generated by FontAwesome font. Get the icons from http://fontawesome.io/ 	
+				-->	
+				
+				<p class="copyright-info aligncenter">&copy; &nbsp; Copyright 2015 - Blink - All Rights Reserved</p>
+				
+				<div class="aligncenter">
+					<a href="#" id="totop">TO TOP</a>
+				</div>
+			</div><!--end centered-wrapper-->				
+		</div><!--end bottomfooter-->
+		
+	</footer><!--end footer-->	
+	
+</div><!--end wrapper-->
+
+	<!-- JQUERY SCRIPTS -->
+	
+	<script type="text/javascript" src="js/plugins-bottom.js"></script>
+
+	<script type="text/javascript" src="twitter/jquery.tweet.min.js"></script>
+	<script type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
+
+	<!-- ISOTOPE -->
+	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>	
+	<script type="text/javascript" src="js/custom-isotope.js"></script>	
+
+	<!-- CUSTOM -->
+	<script type="text/javascript" src="js/custom.js"></script>
+
+</body> 
+</html>

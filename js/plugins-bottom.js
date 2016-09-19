@@ -160,13 +160,19 @@ jQuery(document).ready(function(){
 			subject: $('#subject').val(),
 			comments: $('#comments').val()
 		},
-			function(data){
-				document.getElementById('message').innerHTML = data;
-				$('#message').slideDown('slow');
-				$('#cform .contact-loader').fadeOut('slow',function(){$(this).remove()});
-				$('#submit').removeAttr('disabled');
-				if(data.match('success') != null) $('#cform').slideUp('slow');
-			}
+		function(data){
+
+			if(("success" in data))
+				document.getElementById('message').innerHTML = "Thanks for the request. We will get back to you ASAP!";
+			else
+				document.getElementById('message').innerHTML = "Oops| unable to reach our servers. Please send an email to info@veloceamusements.com";
+			$('#message').slideDown('slow');
+			$('#cform .contact-loader').fadeOut('slow',function(){$(this).remove()});
+			$('#submit').removeAttr('disabled');
+			// if(data.match('success') != null) 
+			$('#cform').slideUp('slow');
+		},
+		"json"
 		);
 
 		});

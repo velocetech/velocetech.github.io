@@ -157,7 +157,7 @@ jQuery(document).ready(function(){
 		$.post(action, {
 			name: $('#name').val(),
 			email: $('#email').val(),
-			subject: $('#subject').val(),
+			phone: $('#phone').val(),
 			comments: $('#comments').val()
 		},
 		function(data){

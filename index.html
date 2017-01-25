@@ -1,18 +1,601 @@
-<!doctype html>
-<title>Site Maintenance</title>
-<style>
-  body { text-align: center; padding: 150px; }
-  h1 { font-size: 50px; }
-  body { font: 20px Helvetica, sans-serif; color: #333; }
-  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-  a { color: #dc8100; text-decoration: none; }
-  a:hover { color: #333; text-decoration: none; }
-</style>
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+	
+	<!-- mobile meta tag -->		
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-<article>
-    <h1>We&rsquo;ll be back soon!</h1>
-    <div>
-        <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. We&rsquo;ll be back online shortly!</p>
-        <p>&mdash; The Team</p>
-    </div>
-</article>
+	<!-- favicons -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="images/apple_icons_72x72.png" />
+	<link rel="apple-touch-icon" href="images/apple_icons_114x114.png" />
+	<link rel="apple-touch-icon" href="images/apple_icons_180x180.png" />
+	
+	<title>Veloce Technovation - Home</title> 
+	
+	<!-- main style -->
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	
+	<!-- color scheme -->
+	<link rel="stylesheet" type="text/css" href="color-schemes/red/red.css" media="screen" />
+	
+	<!--miscellaneous-->
+	<link rel="stylesheet" type="text/css" href="css/pace.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/plugins.css" media="screen" />
+	
+	<!-- revolution slider settings -->
+	<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />	
+
+	<!-- responsive stylesheet -->		
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />			
+	
+	<!-- Google Web Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css' />
+	
+	<!-- jQuery -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	
+	<!-- jQuery Scripts -->
+	<script type="text/javascript" src="js/pace.min.js"></script>
+	<script type="text/javascript" src="js/plugins-top.js"></script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-85795446-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+</head> 
+
+<body> 
+	<div class="dt-preload"></div>
+	<!-- Change "solid-header" with "transparent-header", "transparent-header-2" or "no-header" to switch to new header styles. -->
+	<header id="header" class="solid-header initial-state">
+		<div class="centered-wrapper">
+		
+			<div class="percent-one-fourth bm">
+				<div class="logo"><a href="#hello"><img src="images/logo.png" alt="" /></a></div>
+			</div><!--end one-fourth-->
+			
+
+			<!-- Use "displaynone" class to hide this navigation and use the burger menu -->			
+			<div class="regular-navigation">
+				<a class="nav-btn"><i class="fa fa-bars"></i></a>
+				
+				<div class="percent-three-fourth column-last">					
+					<nav id="navigation">
+						<ul id="mainnav" class="sf-menu">
+							<li class="current"><a href="#hello"><span>Hello</span></a></li>
+							<li><a href="#about"><span>About Us</span></a></li>
+							<li><a href="#entertainment"><span>Entertainment</span></a></li>						
+							<li><a href="#education"><span>Education</span></a></li>
+							<!-- <li><a href="index.html#blog"><span>journal</span></a></li> -->
+							<!-- <li><a href="#extra"><span>extra</span></a>
+								<ul>
+									<li><a class="external" href="elements.html">Elements</a></li>							
+									<li><a class="external" href="portfolio-item-1.html">Portfolio Item 1</a></li>							
+									<li><a class="external" href="portfolio-item-2.html">Portfolio Item 2</a></li>							
+									<li><a class="external" href="portfolio-item-3.html">Portfolio Item 3</a></li>							
+									<li><a class="external" href="portfolio-item-4.html">Portfolio Item 4</a></li>							
+									<li><a class="external" href="portfolio-item-5.html">Portfolio Item 5</a></li>							
+									<li><a class="external" href="blog-masonry-3-columns.html">Blog - Masonry 3 Cols</a></li>
+									<li><a class="external" href="blog-masonry-2-columns.html">Blog - Masonry 2 Cols</a></li>
+									<li><a class="external" href="blog-masonry-2-columns-sidebar.html">Blog - Masonry 2 Cols + Sidebar</a></li>
+									<li><a class="external" href="blog.html">Blog - Regular Layout</a></li>
+									<li><a class="external" href="blog-single.html">Blog - Single</a></li>
+									<li><a class="external" href="blog-single-2.html">Blog - Single 2</a></li>
+								</ul>
+							</li>			 -->				
+							<li><a href="#contact"><span>Contact</span></a></li>
+						</ul>
+					</nav><!--end navigation-->		
+
+				</div><!--end three-fourth-->	
+			</div><!--end regular-navigation-->
+
+			<!-- burger menu - remove the "displaynone" class to enable burger menu -->
+			<div class="percent-three-fourth column-last bm displaynone">
+				<div class="bi burger-icon">
+					<div id="burger-menu">
+						<div class="bar"></div>
+						<div class="bar"></div>
+						<div class="bar"></div>
+					</div>
+				</div>	
+			</div>
+
+			<div class="clear"></div>	
+		</div><!--end centered-wrapper-->
+
+
+		<!-- fullscreen navigation - remove the "displaynone" class to enable the fullscreen navigation -->
+		<div class="overlay displaynone">
+			<div class="wrap centered-wrapper">
+				<ul class="wrap-nav animated fadeInDown">
+					<li class="current"><a href="#hello">Hello</a>
+					</li>
+					<li><a href="#about">About Us</a>
+						<ul>
+							<li><a href="#about">Company Philosophy</a></li>
+							<li><a href="#team">Our Team</a></li>
+						</ul>
+					</li>
+					<li><a href="#work">Projects</a>
+						<ul>
+							<li><a class="external" href="portfolio-item-1.html">Print</a></li>
+							<li><a class="external" href="portfolio-item-2.html">Branding</a></li>
+							<li><a class="external" href="portfolio-item-3.html">Interaction Design</a></li>
+							<li><a class="external" href="portfolio-item-4.html">Animation</a></li>
+							<li><a class="external" href="portfolio-item-5.html">Photography</a></li>
+						</ul>
+					</li>
+					<li><a href="index.html#services">Services</a></li>
+					<li><a href="index.html#blog">Journal</a></li>
+					<li><a href="index.html#contact">Contact</a>
+						<ul>
+							<li><a href="#contact">Get a Quote</a></li>
+							<li><a class="external" target="_blank" href="https://goo.gl/ZFSFEx">Find Us on Map</a></li>
+							<li><a class="external" href="skype:skypeusername?call">Call Us</a></li>
+						</ul>
+					</li>					
+				</ul>
+				<div class="clear"></div>
+
+				<!-- social icons for the fullscreen navigation -->
+ 				<!--
+ 				<ul class="overlaymenu-social">
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+				</ul> 
+				-->
+			</div>
+		</div>
+
+	</header>	
+	
+<div id="wrapper">
+
+	<!-- HELLO SECTION -->
+	
+	<section id="hello">
+	
+		<!--  menu-fixer class for the header. Should always be present when header is set to "solid-header". Delete it when you use "transparent-header", "transparent-header-2" or "no-header" classes for the header  -->
+		<div class="menu-fixer"></div>
+		
+		<!-- revolution slider -->
+		<div class="fullscreenbanner-container">
+			<div class="fullscreenbanner">
+				<ul>
+					
+					<!-- THE FIRST SLIDE -->
+					<li data-transition="fade" data-slotamount="15" data-masterspeed="300">
+						<img src="images/slides/slide1.jpg" alt="" />
+						<div class="slide-opacity"></div>
+						<!-- Layer 1 -->
+						<div class="tp-caption fade title-center"
+							data-x="center"
+							data-y="center"
+							data-voffset="-110"
+							data-speed="500"
+							data-start="500"
+							data-easing="Power3.easeInOut"><h1 class="section-title color-white">We Are Veloce</h1>
+						</div>
+						<!-- Layer 2 -->
+						<div class="tp-caption fade white-small aligncenter"
+							data-x="center"
+							data-y="center" 
+							data-speed="500"
+							data-start="800"
+							data-easing="Power3.easeInOut">Veloce is a boutique Technology Company focused in Virtual Reality, Augmented Reality and IoT.
+						</div>
+						<!-- Layer 3 -->
+						<div class="tp-caption fade"
+							data-x="center"
+							data-y="center" 
+							data-voffset="130"
+							data-speed="500"
+							data-start="1200"
+							data-easing="Power3.easeInOut"><a href="#about" class="smoothscroll dt-button big red">Let`s get started</a>
+						</div>						
+
+					</li>	
+
+
+					<!-- DIDAC booth -->
+					<li data-transition="fade" data-slotamount="15" data-masterspeed="300">
+						<img src="images/slides/didac_booth.jpeg" alt="" />
+						<div class="slide-opacity"></div>
+						<!-- Layer 1 -->
+						<div class="tp-caption fade title-center"
+							data-x="center"
+							data-y="center"
+							data-voffset="-110"
+							data-speed="500"
+							data-start="500"
+							data-easing="Power3.easeInOut"><h1 class="section-title color-white">Veloce at DIDAC 2016</h1>
+						</div>
+						<!-- Layer 2 -->
+						<div class="tp-caption fade white-small aligncenter"
+							data-x="center"
+							data-y="center" 
+							data-speed="500"
+							data-start="800"
+							data-easing="Power3.easeInOut">We demonstrated our products at the largest education conference in Asia Pacific
+						</div>											
+					</li>	
+					
+					
+					<!-- THE SECOND SLIDE with lazy load image -->
+					<li data-transition="slidedown" data-slotamount="1" data-masterspeed="500"  data-fstransition="fade" data-fsmasterspeed="500" data-fsslotamount="7" data-saveperformance="off">
+						<img src="images/lazyload.jpg" data-lazyload="images/slides/slide2.jpg" alt="" />
+						<div class="slide-opacity"></div>
+						<!-- Layer 1 -->
+						<div class="tp-caption fade"
+							data-x="0"
+							data-y="center"
+							data-voffset="-110"
+							data-speed="500"
+							data-start="600"
+							data-easing="Power3.easeInOut"><h1 class="section-title color-white">Interactive Experiences</h1>
+						</div>
+						<!-- Layer 2 -->
+						<div class="tp-caption fade white-small"
+							data-x="0"
+							data-y="center" 
+							data-speed="500"
+							data-start="800"
+							data-easing="Power3.easeInOut">How can publishers give more value to their advertisers?<br/>Get more out of the existing inventory.
+						</div>
+						<!-- Layer 3 -->
+						<div class="tp-caption fade"
+							data-x="0"
+							data-y="center" 
+							data-voffset="130"
+							data-speed="500"
+							data-start="1100"
+							data-easing="Power3.easeInOut"><a href="#contact" class="smoothscroll dt-button big alt white">Talk to us</a>
+						</div>						
+
+
+					</li>	
+
+
+					<!-- THE THIRD SLIDE with lazy load image -->
+					<li data-transition="slidedown" data-slotamount="1" data-masterspeed="500"  data-fstransition="fade" data-fsmasterspeed="500" data-fsslotamount="7" data-saveperformance="off">
+						<img src="images/lazyload.jpg" data-lazyload="images/slides/slide3.jpg" alt="" />
+						<div class="slide-opacity"></div>
+						<!-- Layer 1 -->
+						<div class="tp-caption fade"
+							data-x="0"
+							data-y="center"
+							data-voffset="-110"
+							data-speed="500"
+							data-start="600"
+							data-easing="Power3.easeInOut"><h1 class="section-title color-white"> Impress the customers where they are</h1>
+						</div>
+						<!-- Layer 2 -->
+						<div class="tp-caption fade white-small"
+							data-x="0"
+							data-y="center" 
+							data-speed="500"
+							data-start="800"
+							data-easing="Power3.easeInOut">We help real estate companies turn blueprints into 3d experiences<br/>Without them needing to visit the site.
+						</div>
+						<!-- Layer 3 -->
+						<div class="tp-caption fade"
+							data-x="0"
+							data-y="center" 
+							data-voffset="130"
+							data-speed="500"
+							data-start="1100"
+							data-easing="Power3.easeInOut"><a href="#entertainment" class="smoothscroll dt-button big alt white">Our Products</a>
+						</div>						
+
+
+					</li>	
+					
+					
+							
+				</ul>
+				<!-- Slider Timer Banner-->
+				<!--<div class="tp-bannertimer"></div>-->
+				
+			</div>	
+		</div>
+
+	</section>	
+	
+	
+	<!-- ABOUT SECTION -->
+	
+	<section id="about">
+	
+		<div class="double-space"></div>
+		
+		<div class="centered-wrapper">	
+			
+			<div class="title-left">
+				<h1 class="section-title">who we are</h1>	
+				<h2 class="section-tagline">Veloce is a boutique Technology Company focused in Virtual Reality, Augmented Reality and IoT.</h2>
+			</div>
+
+			<div class="space"></div>
+			<p class="section-intro">Veloce Technologies has a variety of applications for Virtual Reality (VR), Augment Reality (AR) and Internet of Things (IoT) for various industries including Entertainment / Theme Parks, Education, Real Estate, Shopping Malls, Tourism etc.</p>
+
+			<div class="space"></div>		
+			
+			<div class="percent-one-third wow fadeIn" data-wow-delay="0.6s">
+				<div class="service-elem">
+					<h3 class="service-elem-title">Entertainment</h3>
+					<i class="service-elem-icon fa fa-lightbulb-o"></i>
+					<div class="service-elem-text"><p>Virtual Reality is the next generation entertainment attraction which is all set to capture the entire entertainment industry and we have taken our first step in delivering world class Virtual Reality Simulated Rides.  We are launching a variety of Virtual Reality Rides which will unquestionably take the audience to the next level of gaming experience. We have developed various VR experiences/games.</p>	</div>
+				</div>
+			</div>	
+
+			<div class="percent-one-third wow fadeIn" data-wow-delay="0.3s">
+				<div class="service-elem">
+					<h3 class="service-elem-title">Education</h3>
+					<i class="service-elem-icon fa fa-star-o"></i>
+					<div class="service-elem-text"><p>Veloce education products in AR/VR technology provides the next generation learning experience which enable the student for deeper understanding of the subject. This digital interactive and engaging experience makes learning enjoyable.</p>	</div>
+				</div>
+			</div>
+
+			<div class="percent-one-third column-last wow fadeIn" data-wow-delay="0.9s">
+				<div class="service-elem">
+					<h3 class="service-elem-title">Tourism</h3>
+					<i class="service-elem-icon fa fa-bell-o"></i>
+					<div class="service-elem-text"><p>Tourism revenue constitutes of more that 10% of most of the country’s revenue. Yes there is always been a huge limitation in allowing the Tourism Department, Tour Operators and Consolidators to exhibit the uniqueness of a particular attraction, Veloce applications and products will provide an amazing platform for the Tourism Industry to uniquely market their attractions.</p>	</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="clear"></div>
+		
+	</section>		
+		
+
+	<!-- SERVICES SECTION -->
+	<section class="parallax-section" id="entertainment">
+		<div class="lighter-overlay">	
+	
+			<section class="centered-wrapper">	
+		
+				<div class="double-space"></div>
+				
+				<div class="title-left">
+					<h1 class="section-title">Entertainment Products</h1>	
+					<h2 class="section-tagline">Bringing Fun to everyday lives!</h2>
+				</div>
+
+				<div class="space"></div>
+
+				<p class="section-intro">Veloce has developed a technology platform which enables people to physically experience the happenings of a immersive video being played on a VR headset. This patent pending technology is used in various products like extreme rider, flight simulator, hot balloon rides etc. which has been installed in malls, entertainment centres across major cities in India.</p>
+					
+				<div class="space"></div>
+				
+				<div class="percent-one-fourth wow fadeInUp" data-wow-delay="0.3s">
+					<div class="service-elem regular-service">
+						<i class="service-elem-icon fa fa-motorcycle"></i>
+						<h3 class="service-elem-title">Extreme Rider</h3>
+						<div class="service-elem-text">
+							<p>Four patrons will be made to sit on the motion base mounted seats and will be given a Virtual Reality (VR) Headset. The VR Headset will play content similar to Roller Coaster and the seats will move in synchronization with the VR content thereby providing immersive experience.</p>
+						</div>
+					</div>
+				</div>
+				<div class="percent-one-fourth wow fadeInUp" data-wow-delay="0.6s">
+					<div class="service-elem regular-service">
+						<i class="service-elem-icon fa fa-space-shuttle"></i>
+						<h3 class="service-elem-title">Flying Simulator</h3>
+						<div class="service-elem-text">
+							<p>One patron will be suspended in air through harness and will be mounted on to the motion platform and will be given a Virtual Reality (VR) Headset. The VR Headset will play content similar to Paragliding and the patron will move in synchronization with the VR content thereby will have any amazing flying experience.</p>
+						</div>
+					</div>
+				</div>
+				<div class="percent-one-fourth wow fadeInUp" data-wow-delay="0.9s">
+					<div class="service-elem regular-service">
+						<i class="service-elem-icon fa fa-car"></i>
+						<h3 class="service-elem-title">Car Racing Simulator</h3>
+						<div class="service-elem-text">
+							<p>One racer will be made to sit on a motion base platform designed like REAL CAR and will be given a Virtual Reality (VR) Headset. The racer can now start the vehicle and start racing in the track he desires to. The VR Headset content and the motion platform will move in synchronization thereby providing the racer with ultimate immersive racing experience.</p>
+						</div>
+					</div>
+				</div>
+				<div class="percent-one-fourth column-last wow fadeInUp" data-wow-delay="1.2s">
+					<div class="service-elem regular-service">
+						<i class="service-elem-icon fa fa-life-saver"></i>
+						<h3 class="service-elem-title">The Shooter</h3>
+						<div class="service-elem-text">
+							<p>One player will be made to stand on a special platform, supported with harness and made to stand inside a ring will be given a Virtual Reality (VR) Headset. The player can run, walk, jump and shoot the opponents as in real life. This will provide the player with highest gaming experience.</p>
+						</div>
+					</div>
+				</div>								
+				<div class="double-space"></div>
+			
+			</section>
+		</div>
+	</section>
+
+	
+	<!-- SERVICES SECTION -->
+	<section class="parallax-section" id="education">
+		<div class="lighter-overlay">	
+	
+			<section class="centered-wrapper">	
+		
+				<div class="double-space"></div>
+				
+				<div class="title-left">
+					<h1 class="section-title">Education Products</h1>	
+					<h2 class="section-tagline">Engaged Experience, Enhanced Understanding and Convenient Learning.</h2>
+				</div>
+
+				<div class="space"></div>
+
+				<p class="section-intro">Veloce education products in AR/VR technology provides the next generation learning experience which enable the student for deeper understanding of the subject. This digital interactive and engaging experience makes  learning enjoyable.</p>
+					
+				<div class="space"></div>
+				
+				<div class="percent-one-fourth wow fadeInUp" data-wow-delay="0.3s">
+					<div class="service-elem regular-service">
+						<i class="service-elem-icon fa fa-mobile"></i>
+						<h3 class="service-elem-title">AR Book App</h3>
+						<div class="service-elem-text">
+							<p>AR Book App is an Augmented Reality App which will bring life to the subjects in the book and will also allow the students to interact with the digital subjects. This App will also provide the students with the video of the subject explanation which will allow the students to learn and understand the subjects thoroughly at their convenience.</p>
+						</div>
+					</div>
+				</div>
+				<div class="percent-one-fourth wow fadeInUp" data-wow-delay="0.6s">
+					<div class="service-elem regular-service">
+						<i class="service-elem-icon fa fa-flask"></i>
+						<h3 class="service-elem-title">VR Lab</h3>
+						<div class="service-elem-text">
+							<p>In Virtual Reality Lab the students of different classes will wear the VR Headsets and conduct various of their Physics, Chemistry and Biology experiments and will allow the students to master the experiments through immersive learning.</p>
+						</div>
+					</div>
+				</div>
+				<div class="percent-one-fourth wow fadeInUp" data-wow-delay="0.9s">
+					<div class="service-elem regular-service">
+						<i class="service-elem-icon fa fa-group"></i>
+						<h3 class="service-elem-title">AR interactive Class Room</h3>
+						<div class="service-elem-text">
+							<p>AR Interactive Classroom will be a unique classroom where the designated Animated Character will teach the students of various classes about different subjects including but not limited to Water Cycle, Evolution, Solar System, Human Anatomy Etc. Students can interact with the animated character in real-time and live and learn about the subjects in detail in digital format.</p>
+						</div>
+					</div>
+				</div>
+				<div class="percent-one-fourth column-last wow fadeInUp" data-wow-delay="1.2s">
+					<div class="service-elem regular-service">
+						<i class="service-elem-icon fa fa-street-view"></i>
+						<h3 class="service-elem-title">VR Pods</h3>
+						<div class="service-elem-text">
+							<p>The VR Pods will allow the students to walk around in the Virtual Reality Environment and also interact with the Virtual Reality Objects in Real-Time. In the VR Pods the students will physically and virtually move around in the virtual reality environment by walking on the specially designed VR POD.</p>
+						</div>
+					</div>
+				</div>								
+				<div class="double-space"></div>
+			
+			</section>
+		</div>
+	</section>
+
+
+	<!-- CONTACT SECTION -->
+	<section class="parallax-section lazy" id="contact" data-original="images/parallax/parallax-contact.jpg" style="background-image: url('images/lazyload.jpg'); background-repeat: repeat-y;">
+		<div class="darker-overlay">
+		<section class="centered-wrapper">
+			<div class="double-space"></div>
+			
+			<h1 class="section-title">contact us</h1>	
+			<h2 class="section-tagline">Let’s partner to accomplish your next mission!</h2>
+			<div class="space"></div>
+			<div class="percent-one-half wow fadeInLeft">
+				<ul class="contact-info">
+					<li><span><i class="fa fa-map-marker"></i></span>
+						<p>1st Floor, Barnas Building<br/>8/14 Valliammal Road, Vepery<br/> Chennai - 600007, India</p>
+					</li>
+					<li><span><i class="fa fa-phone"></i></span>
+						<p>+91 7676886066</p>
+					</li>
+					<li><span><i class="fa fa-globe"></i></span>
+						<p><a href="mailto:#">hello@velocetech.co</a><br/>
+						<!-- <a href="#">www.velocetech.com</a></p> -->
+					</li>
+				</ul>
+			</div>
+			
+			<div class="percent-one-half column-last wow fadeInRight">
+				<div id="contactform">
+					<div id="message"></div>
+					<form method="post" action="https://formspree.io/hello@velocetech.co" name="cform" id="cform">
+						<fieldset class="percent-one-half">
+							<input id="name" type="text" name="name" placeholder="Name"/>
+						</fieldset>
+						<fieldset class="percent-one-half column-last">
+							<input type="email" name="email" id="email" placeholder="Email"/>
+						</fieldset>
+						<fieldset class="clear">
+							<input type="text" name="phone" id="phone" placeholder="Phone"/>
+						</fieldset>
+						<fieldset class="clear">
+							<textarea name="comments" id="comments" placeholder="Message"></textarea>
+						</fieldset>					
+						<fieldset>
+							<input type="submit" name="send" value="SEND" id="submit" class="dt-button white alt"/>
+						</fieldset>
+					</form>		
+				</div><!--end contactform-->			
+			</div>
+			
+			<div class="double-space"></div>
+		</section>
+		</div>
+	</section>
+	
+	<!-- GOOGLE MAP CONTROLS -->
+<!-- 	<a class="button-map close-map"><span>Locate Us on Map</span></a>
+	<div id="google_map"></div> -->
+	
+	<footer id="footer">		
+		<div id="bottomfooter">		
+			<div class="centered-wrapper">		
+				<!-- <ul id="social" class="aligncenter">
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				</ul>	 -->
+				<!-- 
+				You can add social icons for forrst, dribbble, vimeo, linkedin, etc. 
+				Just add "<li><a href="#"><i class="fa fa-twitter"></i></a></li>" to the list. 
+				The social icons are generated by FontAwesome font. Get the icons from http://fontawesome.io/ 	
+				-->	
+				
+				<p class="copyright-info aligncenter">&copy; &nbsp; Copyright 2016 - Veloce Technovation - All Rights Reserved</p>
+				
+				<div class="aligncenter">
+					<a href="#" id="totop">TO TOP</a>
+				</div>
+			</div><!--end centered-wrapper-->				
+		</div><!--end bottomfooter-->
+		
+	</footer><!--end footer-->	
+	
+</div><!--end wrapper-->
+
+	<!-- JQUERY SCRIPTS -->
+
+	<!-- VARIOUS PLUGINS -->
+	<script type="text/javascript" src="js/plugins-bottom.js"></script>		
+	
+	<!-- TWITTER -->
+	<script type="text/javascript" src="twitter/jquery.tweet.min.js"></script>
+
+
+	<!-- ISOTOPE -->
+	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>	
+	<script type="text/javascript" src="js/custom-isotope.js"></script>	
+	
+	<!-- REVOLUTION SLIDER -->
+	<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="js/custom-revolution.js"></script>
+	
+	<!-- GOOGLE MAPS - remove if you don`t want to use the maps on a page -->
+<!-- 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>		
+	<script type="text/javascript" src="js/custom-map.js"></script> -->
+	
+	<!-- CUSTOM -->
+	<script type="text/javascript" src="js/custom.js"></script>
+
+	<!--[if lt IE 10]-->
+	<script type="text/javascript" src="js/placeholders.js"></script>
+	<!--[endif]-->
+
+</body> 
+</html>
